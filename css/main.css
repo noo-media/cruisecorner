@@ -1,0 +1,302 @@
+/*General*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600|Roboto:400,500,500i,700,700i');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+h1 h2 h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875em; /* 14px/16=0.875em */
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+}
+/******Breadcrumbs*****/
+.is-opened {
+    text-decoration: underline !important;
+    background-color: #97c1c0 !important;
+    color: #fff !important;
+}
+
+.is-opened:hover {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+/******Links******/
+.is-active {
+    text-decoration: underline !important;
+    background-color: #97c1c0 !important;
+    color: #fff !important;
+}
+
+.is-active:hover {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    color: #97c1c0 !important;
+    text-decoration: none !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button, .button:active, .button:visited {
+    background-color: #97c1c0 !important;
+    color: #fff !important;
+    float: right !important;
+    border-color: #97c1c0 !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.specials-buttons, .specials-buttons:active, .specials-buttons:visited {
+    background-color: #363636 !important;
+    color: #fff !important;
+    float: right !important;
+    border-color: #97c1c0 !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.specials-buttons:hover {
+    background-color: #97c1c0 !important;
+    color: grey !important;
+    float: right !important;
+    border-color: #97c1c0 !important;
+}
+/******Nav******/
+.navbar-burger {
+    position: fixed;
+    top: 0;
+    right: 1rem;
+    background-color: transparent;
+    z-index: 2000;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+/******Footer*****/
+footer.footer-dark {
+    background: #333333;
+    color: #fff;
+    position: relative;
+}
+
+#footer-links {
+  color: white;
+}
+
+/****Carousel****/
+#carouselImg {
+  min-width: 100% !important;
+  max-width: 600px !important;
+}
+
+
+/***Social Media Icons****/
+i.fas,
+  i.fab {
+    color: #FFFFFF !important;
+    font-size: 30px;
+  }
+  .fa-facebook-f {
+    color: white;
+  }
+  .fa-facebook-f:hover {
+    color: rgb(59, 91, 152) !important;
+  }
+  .fa-instagram {
+    color: white;
+  }
+  .fa-instagram:hover {
+    color: #fb3958 !important;
+  }
+
+/**********************Packages****************************/
+.inclusion {
+    background-color: #333; 
+    color: #ccc;
+    padding-top: 2%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
+}
+
+ul.checklist li {
+    background: url(../resources/checked.png) left top no-repeat;
+    padding: 0 0 0 25px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    list-style: none;
+}
+.destination-img img {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    cursor: pointer;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    display: block;
+    position: relative;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+/*******Scroll to top******/
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:40px;
+    height:40px;
+    background-color:#97c1c0;
+    text-indent:-9999px;
+    /*display:none;*/
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#333;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+/******Special Cards*******/
+.card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+ }
+ .card-equal-height {
+   margin-top: auto;
+ }
+ .card{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 0.5rem;
+ }
+ .card img{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 0.5rem;
+     max-width: 96.5%;
+     max-height: 96.5%;
+     margin: 0 auto;
+     margin-top: -3.5% !important;
+ }
+
+ /****Slider****/
+ .mySlides {
+     display: none
+    }
+
+ img {
+     vertical-align: middle;
+    }
+ 
+ /* Slideshow container */
+ .slideshow-container {
+   max-width: auto;
+   position: relative;
+   margin: auto;
+ }
+ 
+ /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ /* Position the "next button" to the right */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+ 
+ /* The dots/bullets/indicators */
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+ 
+ .active, .dot:hover {
+   background-color: #97c1c0;
+ }
+ 
+ /* Fading animation */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ /* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+   .prev, .next,.text {font-size: 11px}
+ }
